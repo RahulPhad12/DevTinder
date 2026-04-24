@@ -1,7 +1,7 @@
-const monogoose = require('mongoose');
+const mongoose = require('mongoose');  
 const connectDB = async () => {
-    await monogoose.connect(
-        "mongodb+srv://rahulphad225:AFnP6Rp35PHCsGps@myfirstdb.816kmwk.mongodb.net/devTinder"
+    await mongoose.connect(
+        "mongodb+srv://rahulphad225:3SCFgiyM0GNKzeUs@node.f8kshcb.mongodb.net/devTinder"
     )};
 
 
